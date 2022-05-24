@@ -1,11 +1,11 @@
 <div class="card question">
   <p><%=params[:question]%></p>
-  <p>-You</p>
+  <p class="signature">-You</p>
 </div>
 
 <div class="card coach-answer">
   <p><strong><%=@answer%></strong></p>
-  <p>-Your Coach</p>
+  <p class="signature">-Your Coach</p>
 </div>
 
 <%= link_to "Ask a new question", ask_path %>

@@ -65,6 +65,11 @@ input#submit-btn:hover{
   background-color: $pale-yellow;
 }
 
+.signature {
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
+  color: $submit-blue;
 }
